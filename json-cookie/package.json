@@ -1,0 +1,20 @@
+{
+  "name": "json-cookie",
+  "version": "1.0.0",
+  "description": "json-cookie is client javascript moduel for easy cookie handling and JSON support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rico345100/json-cookie.git"
+  },
+  "keywords": [
+    "json",
+    "object",
+    "cookie"
+  ],
+  "author": ".modernator",
+  "license": "MIT"
+}
