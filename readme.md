@@ -23,7 +23,7 @@ Or just copy /node_modules/json-cookie/index.js into your project directory and 
 I'm heavily recommend that using bundler. If you are not familiar with, you should try it. It isn't hard!
 
 
-###void cookie.set(string key, var value[, object options])
+### void cookie.set(string key, var value[, object options])
 Set cookie with specified key and value with options. value can be a object.
 Available options are:
  - expires: Days of expiration.
@@ -44,7 +44,7 @@ cookie.set('ex-test', 'test', {
 ```
 
 
-###void cookie.get(string key)
+### void cookie.get(string key)
 Get cookie with key. If cookie isn't exist, it returns undefined.
 
 ```javascript
@@ -56,7 +56,7 @@ cookie.get('json-test');	// Object { name: '.modernator' }
 ```
 
 
-###void cookie.delete(string key)
+### void cookie.delete(string key)
 Delete cookie with key.
 
 ```javascript
